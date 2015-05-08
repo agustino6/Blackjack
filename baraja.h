@@ -30,7 +30,14 @@ class Baraja{
 };
 
 class Mano{
-	
-}
+	vector <Carta> cartas;
+	vector <int> Valores;
 
+	void AgregarMano(Baraja baraja){
+		cartas.push_back(baraja.Jalar());
+	}
+	void CalculaValor(){
+		
+	}
 
+};
